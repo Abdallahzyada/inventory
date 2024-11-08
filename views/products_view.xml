@@ -1,0 +1,12 @@
+<odoo>
+    <record id="product_action" model="ir.actions.act_window">
+        <field name="name">product</field>
+        <field name="res_model">store.product</field>
+    </record>
+    <menuitem
+        id="products_menu_itme"
+        name="Products"
+        parent="products_menu"
+        action="product_action"
+    />
+</odoo>

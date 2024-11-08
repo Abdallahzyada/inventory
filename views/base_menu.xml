@@ -1,0 +1,11 @@
+<odoo>
+    <menuitem
+        id="inventory_root_menu"
+        name="Inventory"
+        />
+    <menuitem
+        id="products_menu"
+        name="Product"
+        parent="inventory_root_menu"
+        />
+</odoo>
